@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="https://www.freeiconspng.com/uploads/telescope-icon-16.png" class="space-logo" />
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-link active" id="navItem1" href="#SectionHome">
+                        Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                    <a class="nav-link" href="#SectionInformation" id="navItem2">Space and Information</a>
+                    <a class="nav-link" href="#Sectionform" id="navItem3">Data Range Form</a>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="row">
+            <div id="SectionHome">
+                <div class="col-12">
+                    <div class="bg-container">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="https://i.pinimg.com/736x/04/b8/48/04b848ceb67469b2029598fc66b59dd5.jpg" class="d-block w-100" alt="..." />
+
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="https://i.pinimg.com/originals/af/52/6d/af526d8cea0938ea85d648805eeb03a0.jpg" class="d-block w-100" alt="..." />
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="https://i.pinimg.com/736x/ab/61/19/ab611963b30583894c9d89df9bc748f1.jpg" class="d-block w-100" alt="..." />
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                        <h1 class="web-heading">The Neos Space</h1>
+                        <p class="web-description">Neos Space gives you the opportunity to explore our planet, solar system, galaxy,<span> and objects near to our planet. Provided free with the support of NASA,</span> ViewSpace is developed by a team of scientists, educators, and communication specialists who collaborate to ensure
+                            that content is accurate, up-to-date, engaging, relevant, and accessible to a wide audience.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="SectionInformation">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="bg-container">
+                        <h1 class="web-heading">Information</h1>
+                        <div class="col-12 col-sm-12 col-md-6 d-md-flex flex-row">
+                            <div class="container">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="https://i.pinimg.com/564x/9c/12/74/9c127419d88012208015cf0fde42309a.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <p class="card-text">An asteroid is a minor planet of the inner Solar System. Sizes and shapes of asteroids vary significantly, ranging from 1-meter rocks to a dwarf planet almost 1000 km in diameter; they are rocky, metallic or icy bodies with no atmosphere.
+
+                                            Of the roughly one million known asteroids[1] the greatest number are located between the orbits of Mars and Jupiter, approximately 2 to 4 AU from the Sun, in the main asteroid belt. Asteroids are generally classified to be of three types: C-type, M-type, and S-type</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="https://i.pinimg.com/564x/04/65/4b/04654bcf86e8be93ad3a26324257906f.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <p class="card-text">Meteoroids are objects in space that range in size from dust grains to small asteroids. Think of them as “space rocks."
+
+                                            When meteoroids enter Earth’s atmosphere (or that of another planet, like Mars) at high speed and burn up, the fireballs or “shooting stars” are called meteors.When a meteoroid survives a trip through the atmosphere and hits the ground, it’s called a meteorite.
+                                            Scientists estimate that about 48.5 tons (44 tonnes or 44,000 kilograms).,Each day.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="Sectionform">
+        <h2>Data Range</h2>
+        <label for="start-date">Start Date:</label>
+        <input type="date" id="start-date" name="start-date"><br><br>
+        <label for="end-date">End Date:</label>
+        <input type="date" id="end-date" name="end-date"><br><br>
+        <button class="btn btn-primary" onclick="findNEO()">Find NEOs</button>
+    </div>
+    <div id="neos"></div>
+    <canvas id="myChart"></canvas>
+    <div id="closest-asteroid"></div>
+    <div id="average-size"></div>
+    <script>
+        let myChart;
+
+        function findNEO() {
+            const startDate = document.getElementById("start-date").value;
+            const endDate = document.getElementById("end-date").value;
+            const url = `https://api.nasa.gov/neo/rest/v1/feed?start_date=${startDate}&end_date=${endDate}&api_key=5dmC5rl68baG3KE2SUb0PrG86DF0d7HYq9a6UV0n`;
+
+            fetch(url)
+                .then(response => response.json())
+                .then(data => {
+                    const neos = data.near_earth_objects;
+                    const neosInRange = [];
+                    for (let date in neos) {
+                        if (date >= startDate && date <= endDate) {
+                            neosInRange.push(...neos[date]);
+                        }
+                    }
+                    displayNEOs(neosInRange);
+                    displayClosestAsteroid(neosInRange);
+                    displayAverageSize(neosInRange);
+                })
+                .catch(error => console.error(error));
+        }
+
+        function displayNEOs(neos) {
+            const neosDiv = document.getElementById("neos");
+            neosDiv.innerHTML = "";
+            if (neos.length > 0) {
+                const ul = document.createElement("ul");
+                neos.forEach(neo => {
+                    const li = document.createElement("li");
+                    const link = document.createElement("a");
+                    link.href = neo.nasa_jpl_url;
+                    link.target = "_blank";
+                    link.textContent = neo.name;
+                    li.appendChild(link);
+                    ul.appendChild(li);
+                });
+                neosDiv.appendChild(ul);
+
+                const speeds = neos.map(neo => parseFloat(neo.close_approach_data[0].relative_velocity.kilometers_per_hour));
+                const labels = neos.map(neo => neo.name);
+
+                if (myChart) {
+                    myChart.destroy();
+                }
+                const ctx = document.getElementById("myChart").getContext("2d");
+                myChart = new Chart(ctx, {
+                    type: "line",
+                    data: {
+                        labels: labels,
+                        datasets: [{
+                            label: "Asteroid Speed (km/h)",
+                            data: speeds,
+                            backgroundColor: "rgba(255, 99, 132, 0.2)",
+                            borderColor: "rgba(255, 99, 132, 1)",
+                            borderWidth: 1
+                        }]
+                    },
+                    options: {
+                        scales: {
+                            yAxes: [{
+                                ticks: {
+                                    beginAtZero: true
+                                }
+                            }]
+                        }
+                    }
+                });
+            } else {
+                neosDiv.textContent = "No NEOs found in the given date range.";
+            }
+        }
+
+        function displayClosestAsteroid(neos) {
+            const closestAsteroid = neos.reduce((acc, curr) => {
+                const currentMissDistance = parseFloat(curr.close_approach_data[0].miss_distance.kilometers);
+                const closestMissDistance = parseFloat(acc.close_approach_data[0].miss_distance.kilometers);
+                return currentMissDistance < closestMissDistance ? curr : acc;
+            });
+
+            const closestDiv = document.getElementById("closest-asteroid");
+            closestDiv.innerHTML = "";
+            if (closestAsteroid) {
+                const nameP = document.createElement("p");
+                nameP.textContent = `Name: ${closestAsteroid.name}`;
+                const missDistanceP = document.createElement("p");
+                missDistanceP.textContent = `Miss Distance: ${closestAsteroid.close_approach_data[0].miss_distance.kilometers} km`;
+                const sizeP = document.createElement("p");
+                sizeP.textContent = `Estimated Diameter: ${closestAsteroid.estimated_diameter.kilometers.estimated_diameter_min.toFixed(2)} - ${closestAsteroid.estimated_diameter.kilometers.estimated_diameter_max.toFixed(2)} km`;
+
+                closestDiv.appendChild(nameP);
+                closestDiv.appendChild(missDistanceP);
+                closestDiv.appendChild(sizeP);
+            } else {
+                closestDiv.textContent = "No NEOs found in the given date range.";
+            }
+        }
+    </script>
+</body>
+
+</html>
